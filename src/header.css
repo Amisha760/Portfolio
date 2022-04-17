@@ -8,7 +8,12 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+   
+}
+h1{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 48px;
 }
 
 /* 1 rem=10px */
@@ -21,12 +26,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  background-color: black;
+  background-color: rgb(4, 25, 82);
   color: aliceblue;
 }
 
 .navbar-list{
- 
+    margin-top: 15px;
     display: flex;
     gap: 80px;
   

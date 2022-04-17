@@ -11,14 +11,14 @@ function Header(){
     return (
       <>
         <header className="header active">
-            <h1>portfolio</h1>
+            <h1>Amisha</h1>
             <nav className="navbar">
                 <ul className="navbar-list">
                     <a href="#" className="navbar-link">one</a>
                     <a href="#" className="navbar-link">two</a>
-                    <a href="#" className="navbar-link">three</a>
-                    <a href="#" className="navbar-link">four</a>
-                    <a href="#" className="navbar-link">five</a>
+                    <a href="#" className="navbar-link">skills</a>
+                    <a href="#" className="navbar-link">projects</a>
+                    <a href="#" className="navbar-link">Contact me</a>
                 </ul>
             </nav>
             <div className="mobile-navbar-btn" onClick={togglebtn}>
