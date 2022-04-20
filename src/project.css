@@ -1,0 +1,52 @@
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+
+    width: 22%;
+    height: 22%;
+    margin-top: 4%;
+  }
+  
+ 
+  .container {
+    padding: 2px 16px;
+  }
+  .project_heading{
+    color: aliceblue;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+     font-size: 50px;
+     margin-top: 5%;
+  }
+  .all_project{
+     
+     height: 100%;
+     margin-left: 5%;
+     margin-right: 5%;
+  
+  }
+  .card{
+    display: inline-block;
+   margin-left: 250px;
+    margin-top: 100px;
+    background-color: rgb(8, 16, 104);
+    color: aliceblue;
+    font-family: cursive;
+    font-style: italic;
+    box-shadow: 3px 4px whitesmoke ;
+   
+  }
+  .card_btn{
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .card_btn a{
+  color: aliceblue;
+  text-decoration: none;
+  cursor: pointer;
+  }
+  .name_card:hover{
+   color: rgb(99, 116, 157);
+  }
+  
