@@ -1,0 +1,50 @@
+.contactme{
+    margin-top:30px;
+    width: 100%;
+    background-color: rgb(6, 31, 124);
+    height: 150px;
+margin-bottom: 0%;
+padding: 30px;
+color: aliceblue;
+display: flex;
+}
+.mail a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 54%;
+    float: left;
+    margin-top: 25px;
+}
+.social-media{
+    width: 35%;
+   
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+}
+.social-media h5{
+    margin-top: -2px;
+    margin-left: 40px;
+}
+.social-media ul {
+   display: flexbox;
+
+  
+}
+.social-media ul a{
+    margin-left: 20px;
+}
+.coding-platform h5{
+margin-left:50px ;
+}
+.coding-platform{
+    width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.coding-platform  a{
+    display: flexbox;
+   margin-left: 30px;
+  margin-top: 13px
+}

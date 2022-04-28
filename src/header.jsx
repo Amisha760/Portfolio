@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import {Link} from "react-scroll"
 function Header(){
      
      const nav_header=document.querySelector(".header");
@@ -14,11 +15,11 @@ function Header(){
             <h1>Amisha</h1>
             <nav className="navbar">
                 <ul className="navbar-list">
-                    <a href="#" className="navbar-link">one</a>
-                    <a href="#" className="navbar-link">two</a>
-                    <a href="#" className="navbar-link">skills</a>
-                    <a href="#" className="navbar-link">projects</a>
-                    <a href="#" className="navbar-link">Contact me</a>
+                    {/* <Link to="#" className="navbar-link">one</Link>
+                    <Link to="#" className="navbar-link">two</Link> */}
+                    <Link to="Skill" className="navbar-link" smooth={true} duration={1000}>Skills</Link>
+                    <Link to="all_project" className="navbar-link" smooth={true} duration={1000}>Projects</Link>
+                    <Link  to="contactme" className="navbar-link" smooth={true} duration={1000}>Contact me</Link>
                 </ul>
             </nav>
             <div className="mobile-navbar-btn" onClick={togglebtn}>

@@ -1,11 +1,14 @@
 import React from "react";
+import "./App.css"
 import Header from "./header";
 import About from "./About";
 import Skills from "./skills";
 import Project from "./project";
 import Data from"./Api";
 import Card from "./card"
-import "./project.css"
+import "./project.css";
+import ContactMe from "./contactme";
+
 
 
 function App(){
@@ -21,10 +24,11 @@ function App(){
     )
  }
 return (
-   <>
+ <>
    <Header/>
     <About/>
-    <Skills/>
+  <Skills/>
+  {/* <Project/> */}
     <div className="all_project">
     <div className="project_heading">
         Projects
@@ -32,10 +36,11 @@ return (
     
     { Data.map(card)}
 </div>
- 
+<ContactMe/>
+ </>
 
-    
-   </>
+
+  
 
 );
 }

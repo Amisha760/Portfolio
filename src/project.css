@@ -3,7 +3,7 @@
     transition: 0.3s; */
 
     width: 22%;
-    height: 22%;
+   
     margin-top: 4%;
   }
   
@@ -29,7 +29,7 @@
   .card{
     display: inline-block;
    margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 60px;
     background-color: rgb(8, 16, 104);
     color: aliceblue;
     font-family: cursive;

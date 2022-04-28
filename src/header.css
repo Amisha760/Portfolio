@@ -37,6 +37,11 @@ h1{
   
 
 }
+.navbar-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 21.5px;
+}
 .navbar-link:link,
 .navbar-link:visited{
   
